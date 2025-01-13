@@ -3,7 +3,6 @@ import SearchForm from "@/components/SearchForm";
 import StartupCard, { StartupCardType } from "@/components/StartupCard";
 import { sanityFetch, SanityLive } from "@/sanity/lib/live";
 import { STARTUP_QUERY } from "@/sanity/lib/queries";
-import React from "react";
 
 const Home = async ({
   searchParams,
@@ -37,7 +36,7 @@ const Home = async ({
         <ul className="card_grid mt-7">
           {posts?.length > 0 ? (
             posts.map((post: StartupCardType, index: number) => (
-              <StartupCard key={post?._id} post={post} />
+              <StartupCard key={post?._id + index} post={post} />
             ))
           ) : (
             <p className="no-results">No startups found!</p>
