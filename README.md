@@ -14,6 +14,9 @@
   </div>
 
 <h3 align="center">Startup Directory Platform</h3>
+<h3 align="center">
+<a href='https://yc-directoy.vercel.app'>LIVE SITE</a>
+</h3>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -77,8 +80,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/JavaScript-Mastery-Pro/pitchify.git
-cd pitchify
+git clone https://github.com/ahmad-1212/yc_directoy.git
+cd yc_directory
 ```
 
 **Installation**
